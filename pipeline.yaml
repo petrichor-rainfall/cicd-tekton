@@ -16,4 +16,4 @@ spec:
       steps:
       - image: alpine:3.15
         script: |
-          echo "hi $(params.username)"
+          echo "hi hello $(params.username)"
